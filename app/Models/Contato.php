@@ -9,6 +9,7 @@ class Contato extends Model
 {
     use HasFactory;
 
+    // Define quais atributos podem ser atribuídos ao model
     protected $fillable = [
         "nome",
         "telefone",
